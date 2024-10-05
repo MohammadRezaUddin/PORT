@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mohammad Reza Uddin Tonmoy</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.14.0/dist/full.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+<nav class="bg-base-200 py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+        <h1 class="text-2xl font-bold text-gray-800">Tonmoy's Portfolio</h1>
+        <ul class="menu menu-horizontal lg:menu-vertical bg-base-200 rounded-box">
+            <li>
+                <a href="#home">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                    </svg>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Contact
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                    Skills
+                </a>
+            </li>
+            <li>
+                <a href="#certificates">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3v18h18V3H3zm2 2h14v14H5V5z" />
+                    </svg>
+                    Certificates
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+       <!-- Hero Section with Carousel -->
+<section class="bg-cover bg-center h-screen text-white" id="home">
+    <div class="h-full bg-black bg-opacity-60 flex items-center justify-center">
+        <div class="text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">I'm Mohammad Reza Uddin Tonmoy</h2>
+            <p class="text-lg md:text-xl mb-6">Graphic Designer & Photoshop Expert</p>
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+        </div>
+    </div>
+    <div class="carousel w-full">
+        <!-- Slide 1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+            <img src="1900 * 600" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <!-- Add more slides here -->
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-8 text-gray-800">About Me</h3>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                I am Mohammad Reza Uddin Tonmoy, a skilled Graphic Designer with years of experience in creating visually stunning designs. I specialize in all aspects of Photoshop and have a proven track record of delivering professional work for clients worldwide.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-8 text-gray-800">My Skills</h3>
+            <p class="text-lg text-gray-600">Graphic Design, Photoshop, Illustrator, Figma, Branding, UI/UX Design</p>
+        </div>
+    </section>
+
+   <!-- Projects Section -->
+<section id="projects" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold mb-8 text-gray-800">My Projects</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Add 10 projects here -->
+            <div class="card bg-white shadow-lg">
+                <figure><img src="https://via.placeholder.com/600x400" alt="Project 1" /></figure>
+                <div class="card-body">
+                    <h4 class="text-xl font-bold">Project Title 1</h4>
+                    <p class="text-gray-600">Description of the project showcasing your design skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Certificate Section -->
+<section id="certificates" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold mb-8 text-gray-800">Certificates</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="card bg-white shadow-lg">
+                <figure><img src="https://via.placeholder.com/600x400" alt="Certificate" /></figure>
+                <div class="card-body">
+                    <h4 class="text-xl font-bold">Certificate Title</h4>
+                    <p class="text-gray-600">Details of the certificate and its significance.</p>
+                </div>
+            </div>
+            <!-- Add more certificate cards -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-8 text-gray-800">Contact Me</h3>
+            <p class="text-lg text-gray-600 mb-8">Feel free to reach out for any design projects or collaborations.</p>
+            <a href="mailto:example@example.com" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Mohammad Reza Uddin Tonmoy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
